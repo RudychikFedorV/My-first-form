@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400&display=swap" rel="stylesheet">
+    <title>Form</title>
+</head>
+<body>
+    <!-- questionnaire one -->
+    <div class="wrapper">
+        <form action="/">
+            <div class="registration">
+                <label for="name">First Name:</label>
+            </div>
+            <div class="input__name">    
+                <input type="text" id="name" name="first__name" placeholder="Your name..">
+            </div>
+            <div class="registration">
+                <label for="name">Last Name:</label>
+            </div>
+            <div class="input__name">    
+                <input type="text" id="name" name="last__name" placeholder="Your last name..">
+            </div>
+            <div class="registration">
+                <label for="email">Email:</label>
+            </div>
+            <div class="input__name">  
+                <input type="email" id="mail" name="email__name" placeholder="@gmail.com">
+            </div>
+            <div class="registration">
+                <label for="country">Country:</label>
+            </div>
+            <div class="input__name">  
+                <select id="country" name="country">
+                    <option selected value="ukraine">Ukraine</option>
+                    <option value="germany">Germany</option>
+                    <option value="england">England</option>
+                    <option value="usa">USA</option>
+                    <option value="canada">Canada</option>
+                </select>
+            </div>
+            <div class="registration">
+                <label for="subject">Subject:</label>
+            </div>
+            <div class="input__name">  
+                <textarea name="subject" id="subject" placeholder="Write something.."></textarea>
+            </div>
+            <div class="registr">
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </div>
+        </form>        
+    </div>
+
+    <!-- questionnaire two -->
+    <div class="wrapper">
+        <form action="/">
+            <div class="registration">
+                <label for="name">Ім'я:</label>
+            </div>
+            <div class="input__name">    
+                <input type="text" name="username" placeholder="Username">
+            </div>
+            <div class="registration">
+                <label for="name">Пароль:</label>
+            </div>
+            <div class="input__name">    
+                <input type="password" name="userpass" placeholder="Userpass">
+            </div>
+            <div class="registration">
+                <label for="userphone">Телефон:</label>
+            </div>
+            <div class="input__name">  
+                <input type="tel" name="userphone" placeholder="Userphone">
+            </div>
+            <div class="registration">
+                <label for="userphone">Стать:</label>
+            </div>
+            <div class="input__name">  
+                <input type="radio" checked name="gender" value="male"> Чоловіча
+                <input type="radio" name="gender" value="female">Жіноча
+            </div>
+            <div class="registration">
+                <label for="name">Майно:</label>
+            </div>
+            <div class="input__name">    
+                <input type="checkbox" checked name="bike" value="yes">Велосипед
+                <input type="checkbox" name="car" value="yes">Машина
+                <input type="checkbox" disabled name="house" value="yes">Дім
+            </div>
+            <div class="registration">
+                <label for="userfile">Додати фотографію:</label>
+            </div>
+            <div class="input__name">  
+                <input type="file" />  
+            </div>
+            <div class="registr">
+                <input type="submit" value="Відправити">
+                <input type="reset" value="Очистити">
+            </div>
+        </form>        
+    </div>    
+</body>
+</html>
