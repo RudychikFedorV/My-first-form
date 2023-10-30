@@ -5,56 +5,63 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/switch.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400&display=swap" rel="stylesheet">
     <title>Form</title>
 </head>
 <body>
-    <!-- questionnaire one -->
-    <div class="wrapper">
-        <form action="/">
-            <div class="registration">
-                <label for="name">First Name:</label>
-            </div>
-            <div class="input__name">    
-                <input type="text" id="name" name="first__name" placeholder="Your name..">
-            </div>
-            <div class="registration">
-                <label for="name">Last Name:</label>
-            </div>
-            <div class="input__name">    
-                <input type="text" id="name" name="last__name" placeholder="Your last name..">
-            </div>
-            <div class="registration">
-                <label for="email">Email:</label>
-            </div>
-            <div class="input__name">  
-                <input type="email" id="mail" name="email__name" placeholder="@gmail.com">
-            </div>
-            <div class="registration">
-                <label for="country">Country:</label>
-            </div>
-            <div class="input__name">  
-                <select id="country" name="country">
-                    <option selected value="ukraine">Ukraine</option>
-                    <option value="germany">Germany</option>
-                    <option value="england">England</option>
-                    <option value="usa">USA</option>
-                    <option value="canada">Canada</option>
-                </select>
-            </div>
-            <div class="registration">
-                <label for="subject">Subject:</label>
-            </div>
-            <div class="input__name">  
-                <textarea name="subject" id="subject" placeholder="Write something.."></textarea>
-            </div>
-            <div class="registr">
-                <input type="submit" value="Submit">
-                <input type="reset" value="Reset">
-            </div>
-        </form>        
+    <div class="container">
+        <label class="switch">
+            <input type="checkbox" class="input__switch" />
+            <span class="switch__slider"></span>
+        </label>
+        <!-- questionnaire one -->
+        <div class="wrapper">
+            <form action="/">
+                <div class="registration">
+                    <label for="name">First Name:</label>
+                </div>
+                <div class="input__name">    
+                    <input type="text" id="name" name="first__name" placeholder="Your name..">
+                </div>
+                <div class="registration">
+                    <label for="name">Last Name:</label>
+                </div>
+                <div class="input__name">    
+                    <input type="text" id="name" name="last__name" placeholder="Your last name..">
+                </div>
+                <div class="registration">
+                    <label for="email">Email:</label>
+                </div>
+                <div class="input__name">  
+                    <input type="email" id="mail" name="email__name" placeholder="@gmail.com">
+                </div>
+                <div class="registration">
+                    <label for="country">Country:</label>
+                </div>
+                <div class="input__name">  
+                    <select id="country" name="country">
+                        <option selected value="ukraine">Ukraine</option>
+                        <option value="germany">Germany</option>
+                        <option value="england">England</option>
+                        <option value="usa">USA</option>
+                        <option value="canada">Canada</option>
+                    </select>
+                </div>
+                <div class="registration">
+                    <label for="subject">Subject:</label>
+                </div>
+                <div class="input__name">  
+                    <textarea name="subject" id="subject" placeholder="Write something.."></textarea>
+                </div>
+                <div class="registr">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </div>
+            </form>        
+        </div>
     </div>
 
     <!-- questionnaire two -->
